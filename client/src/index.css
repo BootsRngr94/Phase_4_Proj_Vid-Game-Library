@@ -1,0 +1,94 @@
+:root {
+  --bg: #282c34;
+  --header: #fff;
+  --link: #61dafb;
+  --text: hsla(0, 0%, 100%, 0.88);
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 6px 6px 6px 6px rgb(255, 0, 0);
+  z-index: 1000;
+  width: 500px;
+  height: 500px;
+}
+
+.popup-content {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'papyrus';
+}
+
+header img {
+  height: 80px;
+}
+body {
+  height: 300vh;
+  background-image: url('https://img.freepik.com/premium-photo/cyberpunk-gaming-controller-gamepad-joystick-illustration_691560-5812.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+.navBar {
+  background-color:black;
+  overflow: hidden;
+}
+
+.navBar a {
+  float: left;
+  color: #ff0000;
+  text-align: auto;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+
+.navBar a:hover {
+  background-color: white;
+  color: yellow;
+}
+
+.navBar a.active {
+  background-color: red;
+  color: black;
+}
+
+.card-container {
+  width: 93%;
+  height: fit-content;
+  background-color: bisque;
+  white-space: nowrap;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  width:75px;
+  height:65px;
+  padding:15px 10px;
+  background:#333;
+  border-radius:5px;
+  transition:.5s;
+  font-size:24px;
+  color:transparent;
+  line-height:65px;
+  margin:10px;
+  opacity:1;  
+  user-select:none; 
+}
+
+.game-card:hover {
+  transform:scale(1.2);
+  color:white;
+  text-shadow:1px 1px black;
+  box-shadow:0 0 15px black;
+}
