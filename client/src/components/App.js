@@ -11,7 +11,6 @@ import "../stylesheet/index.css";
 
 
 
-
 function App() {
   const [games, setGames] = useState([])
   const[consoles, setConsoles]= useState([])
